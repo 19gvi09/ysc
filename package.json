@@ -1,0 +1,19 @@
+{
+  "name": "ysc",
+  "version": "1.0.0",
+  "description": "yoptascript cli compiler",
+  "main": "bin/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ysc": "bin/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^17.7.2",
+    "yopta": "^2.0.4"
+  }
+}
